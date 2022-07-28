@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F3F3F3"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="visible"
+        app:srcCompat="@drawable/shape" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="2dp"
+        app:srcCompat="@drawable/shapewhite" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="13dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginRight="78dp"
+        android:layout_marginBottom="42dp"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="mediReminder"
+        android:textColor="#FFFFFF"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="76dp"
+        android:layout_marginBottom="755dp"
+        android:fontFamily="@font/candal"
+        android:text="A reminder for YOU!! "
+        android:textSize="20sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="51dp"
+        android:layout_height="60dp"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:layout_marginBottom="39dp"
+        android:fontFamily="@font/candal"
+        android:gravity="center"
+        android:text="+"
+        android:textColor="#FF2400"
+        android:textSize="55sp" />
+
+    <Button
+        android:id="@+id/bt1"
+        android:layout_width="277dp"
+        android:layout_height="64dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="false"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="62dp"
+        android:layout_marginBottom="591dp"
+        android:background="@drawable/button"
+        android:fontFamily="@font/candal"
+        android:shadowColor="#000000"
+        android:text="Create a reminder"
+        android:textSize="15sp"
+        app:backgroundTint="#22A83E" />
+
+
+</RelativeLayout>
